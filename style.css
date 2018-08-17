@@ -316,6 +316,17 @@ a.single-about,
   display: inline-block;
 }
 
+#markee{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background: gray;
+  padding-top: 3px;
+  position: fixed;
+  z-index: 99999999;
+}
+
 .about-mid-text h1 {
   font-size: 31px;
   text-transform: capitalize;
