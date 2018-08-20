@@ -358,10 +358,10 @@ a.single-about,
 }
 
 a.single-about {
-  color: #cbe5ff;
+  color: #4c4c4c;
   display: block;
   padding: 50px 25px;
-  background: #1938a2;
+  background: white;
   text-align: center;
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -369,7 +369,7 @@ a.single-about {
 }
 
 a.single-about:hover {
-  background: #122e91;
+  background: #;
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   transform: translateY(-5px);
@@ -405,7 +405,7 @@ ico area css
 }
 
 .single-ico a {
-  color: #f9748f;
+  color: black;
   padding-right: 10px;
   font-size: 18px;
 }
@@ -561,7 +561,7 @@ Documentation area css
 }
 
 .single-document:hover .single-document-text span {
-  color: #FB9A8C;
+  color: #0dbc15;
 }
 
 button.single-document-text {
@@ -575,7 +575,7 @@ roadmap area css
 ======================*/
 
 .roadmap-area{
-	background: #031b69;
+	background: white;
   overflow: hidden;
 }
 
@@ -673,7 +673,7 @@ roadmap area css
 }
 
 .roadmap-area .owl-nav div:hover{
-  color: #fa758e;
+  color: #0dbc15;
 }
 
 .roadmap-area .owl-carousel .owl-stage-outer {
@@ -751,7 +751,7 @@ faq area css
 }
 
 .faq-list ul li a.active {
-  color: #fa758e;
+  color: #0dbc15;
 }
 
 .faq-list ul li a {
@@ -769,7 +769,7 @@ faq area css
 
 .readmore-btn {
   display: inline-block;
-  color: #fa758e;
+  color: #0dbc15;
   text-transform: capitalize;
   font-size: 16px;
 }
@@ -799,7 +799,7 @@ faq area css
 }
 
 .faq-area .owl-nav div:hover{
-  color: #fa758e;
+  color: #0dbc15;
 }
 
 .single-faq h4 {
@@ -970,7 +970,7 @@ community area css
 .community-area {
   position: relative;
   z-index: 2;
-  background: #031b69;
+  background: white;
   overflow:hidden;
 }
 
@@ -1049,8 +1049,8 @@ community area css
   background: #0e76a8;
 }
 
-.single-community a.dribbble i {
-  background: #E84C88;
+.single-community a.facebook i {
+  background: #4267b2;
 }
 
 .single-community a.github i {
@@ -1188,16 +1188,16 @@ welcome area v2 css
 }
 
 .v2.welcome-progress {
-  background: #001763;
+  background: #a0c5e800;
   padding: 50px 30px;
   border-radius: 10px;
-  box-shadow: 0 0 45px #0324af;
+  box-shadow: 0 0 45px #c8ccc9;
 }
 
 .progress.v2 {
   margin: 10px 0;
   height: 30px;
-  background: #062489;
+  background: #848484;
 }
 
 .v2.welcome-progress a.gradient-btn {
@@ -1207,7 +1207,7 @@ welcome area v2 css
 
 .progress.v2 .progress-bar {
   border-radius: 50px;
-  background: -webkit-linear-gradient(top,#00bbf9,#005eea);
+  background: -webkit-linear-gradient(right,#848484,#0dbc15,#0dbc15);
   position: relative;
   z-index: 2;
 }
@@ -1217,7 +1217,7 @@ welcome area v2 css
   content: "";
   height: 50px;
   width: 50px;
-  background: -webkit-linear-gradient(top,#00bbf9,#005eea);
+  background: -webkit-linear-gradient(top,#3c3c3c,#0dbc15);
   right: 0;
   border-radius: 50px;
 }
@@ -1309,7 +1309,7 @@ faq v2 area css
 .faq-area.v2 .card-header:first-child {
   border-radius: none !important;
   border-radius: none;
-  background: #031b6f;
+  background: #0dbc15;
   padding: 5px;
     padding-left: 5px;
   padding-left: 30px;
@@ -1317,7 +1317,7 @@ faq v2 area css
 
 .faq-area.v2 .card {
   border: none;
-  background: #143dc7;
+  background: #848484;
   margin-bottom: 20px;
 }
 
@@ -1365,7 +1365,7 @@ community v2 area css
 .contact-form input, .contact-form textarea {
   width: 100%;
   background: none;
-  border: 1px solid #163fcb;
+  border: 1px solid #0dbc15;
   padding: 15px;
   text-transform: capitalize;
   border-radius: 5px;
@@ -1399,7 +1399,7 @@ community v2 area css
 }
 
 .single-footer .footer-form.v2{
-  background: #062489;
+  background: #0dbc15;
 }
 /*==========================
 blog page css
@@ -1521,7 +1521,7 @@ a.single-blog-top:hover {
   font-weight: 700;
 }
 .quite-area {
-  background: #1938a2;
+  background: white;
   padding: 30px 0;
 }
 .quite-text {
@@ -1734,7 +1734,7 @@ a.gradient-btn {
   color: #000000;
   text-transform: uppercase;
   font-weight: 700;
-  background: -webkit-linear-gradient(right,#fe998b,#fa768d,#f78ca0);
+  background: -webkit-linear-gradient(right,#848484,#848484,#848484);
   padding: 10px 20px;
   border-radius: 5px;
   position: relative;
@@ -1748,7 +1748,7 @@ a.gradient-btn:after {
   left: 0;
   top: 0;
   content: "";
-  background: -webkit-linear-gradient(right,#072487,#fa768d,#fe998b);
+  background: -webkit-linear-gradient(right,#848484,#0dbc15,#848484);
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -1766,13 +1766,20 @@ a.gradient-btn:hover:after{
   text-transform: uppercase;
 }
 
-.about-mid-img img, 
-.document-flag img, 
+.about-mid-img img{
+  height: 100%;
+  width: 100%;
+} 
+.document-flag img{
+  height: 50%;
+  width: 50%;
+} 
 .single-team-img img,
 .welcome-img img{
   height: 100%;
   width: 100%;
 }
+
 
 ::-webkit-input-placeholder{color:#000000}
 :-ms-input-placeholder{color:#000000}
